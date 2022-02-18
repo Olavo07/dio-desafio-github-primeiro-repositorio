@@ -1,0 +1,547 @@
+#Lógica de programação 
+##Concatenação é um termo usado em computação para designar a operação de unir o conteúdo de duas strings.
+String é uma sequência de carácteres
+
+Para indicar a concatenação usar &
+
+Estrutura de repetição, é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjuntos de comandos de acordo com uma condição ou contador
+
+Linguagem de programação, é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas; Que podem ser desenvolvidos para rodar em computadores, dispositivos móveis entre outros. 
+Alto nível: São aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.
+Baixo nível: É aquela que se aproxima mais da linguagem da máquina. São as que você precisa ter o conhecimento direto da arquitetura do computador.
+Compiladas: Linguagem de programação em que o código fonte, é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado de compilação. Ex: C#, visual basic, Delphi, C++.
+Interpretadas: Linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador que em seguida é executado pelo sistema operacional ou processador. Ex: Java script, php, phyton, etc. 
+
+Tipo de variável “ cadeia” quando for uma palavras com mais de uma letra.
+
+
+“Se” é uma condição, após a condição usar “{“ para informas a mensagem caso verdadeira
+
+(“\n” + a frase escrita) para pular a frase para linha de baixo
+
+“Senao” Caso a condição seja falsa. 
+
+Desvio condicional-  Caso
+
+Usar “escolha” para identificar os “casos”
+
+Laços de repetição 
+Exemplo:
+
+Faca {
+}Enquanto (contador<=limite)
+
+Matrizes e vetores: 
+
+Matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória.
+
+A individualização de cada variável de um vetor é feita através do uso de índices.
+
+Os Vetores são matrizes de uma só dimensão.
+
+#Estrutura de dados e algoritmos 
+
+##Um algoritmo é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação específica.
+
+Os algoritmos são utilizados para manipular dados nas estruturas de várias formas, como por exemplo: inserir, excluir, procurar e ordenar dados.
+
+Principais estruturas de dados:
+Vetores e matrizes (Conhecidos também como arrays):
+   São estruturas de dados simples que podem auxiliar quando há muitas variáveis do mesmo tipo em um algoritmo.
+ 
+1- Informar o vetor, ex:
+ inteiro Numeros[]={1,3,5,6}
+2- usar o comando “para”. Ex: 
+para( inteiro Posicao=0; posição <=3; posição++)
+3- após uso do comando “para”  abra “{“ e continue. 
+escreva(Numeros[posicao] + “ ”)
+
+
+Registo: 
+Um registro é uma estrutura que fornece um formato especializado para armazenar informações em memória.
+Toda estrutura de registro tem um nome, e seus campos podem ser acessados por meio do uso do operador(.). Por exemplo, para acessar o preço de um livro, podemos usar a seguinte declaração
+
+Livro.preco 
+
+
+
+Listas:
+Armazena dados de um determinado tipo em uma ordem específica.
+A diferença entre listas e arrays é que as listas possuem tamanho ajustável, enquanto arrays possuem um tamanho fixo.
+Existem dois tipos de listas:
+
+Ligadas: existem os nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso ela é chamada de “ lista ligada “, pois os nós são amarrados com essa indicação de qual é o próximo nó.
+Duplamente ligadas: constituem uma variação das listas ligadas.
+A grande diferença desse tipo para o outro é que elas são bidirecionais. Naturalmente, não conseguimos “andar para trás” em listas ligadas, pois os nós dessa lista sabem apenas quem é o próximo elemento.  Nas listas duplamente ligadas, os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+
+Pilha:
+É uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado.
+O acesso aos itens é restrito- somente um item pode ser lido ou removido por vez.
+Tipos:
+
+LIFO OU UEPS: A estrutura do tipo PILHA LIFO ( lady in first out) ou UEPS (último que entra primeiro que sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o último que tiver sido inserido.
+FIFO OU PEPS: A estrutura do tipo PILHA FIFO( First in first out) ou PEPS( Primeiro que entra primeiro que sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+
+Fila:
+A estrutura do tipo fila admite remoção de elementos e inserção de novos sujeita à seguinte regra de operação:   
+O elemento removido é o que está na estrutura há mais tempo ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+Árvore:
+É uma estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da árvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas.
+
+A raiz seria o meio do vetor
+
+Tabela Hash:
+Uma tabela hash, de dispersão ou espalhamento é uma estrutura de dados especial, que associa chaves de pesquisa a valores.
+Uma tabela hash é uma generalização da ideia de array, porém utiliza uma função denominada hashing para espalhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do “array” que define a tabela.
+
+A tabela hash permite a associação de “valores” a “chaves”
+
+Valores são a posição ou índice onde o elemento se encontra.
+
+Chave: parte da informação que compõe o elemento a ser manipulado.
+
+Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição do “array”.
+
+Grafos: 
+Grafia são estruturas que permitem programar a relação entre objetos.
+
+Os objetos são vértices ou “nós” do grafo.
+
+Os relacionamentos são arestas.
+
+#Pensamento Computacional
+
+##Refere-se ao processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+
+Formulação e resolução de problemas.
+
+É baseado em quatro pilares: Decomposição, Reconhecimento de padrões, abstração e design de algoritmos.
+
+Decomposição: dividir um problema complexo em subproblemas.
+Reconhecimento de padrões: identificar padrões ou tendências; Similaridades entre os problemas.
+Abstração: Extrapolar o conceito do problema para uma forma generalista.
+Design de algoritmos: automatizar; Definir passo a passo a solução do problema.
+
+Habilidades complementares: raciocínio lógico e aperfeiçoamento 
+
+Raciocínio lógico é um tipo de pensamento estruturado, ou raciocínio, que permite encontrará conclusão ou determinar a resolução de um problema.
+Classificação: indução:
+Leis e teorias, baseado no que eu vi ou experimentei.
+Dedução: dado uma lei ou teoria eu darei uma explicação ou solução a determinado problema.
+Abdução: utiliza a conclusão para determinar a premissa.
+
+Aperfeiçoamento:
+Ato de aperfeiçoar, melhoramento, etc.
+Apartir de uma solução, determinar pontos de melhora.
+
+
+
+Decomposição
+
+Estratégia
+Primeira etapa análise: processo de quebrar e determinar partes menores e gerenciáveis. 
+Segunda etapa síntese: combinar os elementos recompondo o problema original.
+ 
+A ordem de execução dessas tarefas podem ser sequencial ou paralelo.
+Sequencial: dependência entre tarefas. Executadas em “filas”.
+Paralelo: tarefas podem ser executadas concomitantemente.
+
+
+Reconhecimento de padrões
+•modelo base
+•estrutura invariante 
+•repetição 
+
+
+Determinar padrões pra generalizar, com o objetivo de obter resolução para problemas diferentes.
+
+Classificação de objetos são por categorias e classes
+
+
+
+
+Abstração 
+
+Abstrair: observar, um ou mais elementos, avaliando características e propriedades em separado.
+Abstração: Processo intelectual de isolamento de um objetiva realidade.
+Generalizar: tornar-se geral, mais amplo, extensão.
+
+Generalização: Na lógica, é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares.
+
+
+
+Algoritmos
+É uma sequência de passos com objetivo definido, com execução de tarefas específicas, conjunto de operações que resultam em uma sucessão finita de ações.
+
+Instruções detalhadas
+
+•Análise: estudo e definição de dados de entrada e saída.
+•Algoritmo: descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo.
+•Codificação: o algoritmo é codificado de acordo com a linguagem de programação escolhida.
+
+Como construir um algoritmo?
+•Compreensão do problema 
+•Definição dados de entrada
+•Definir processamento
+•Definir dados de saída
+•Utilizar um método de construção 
+•Teste e diagnóstico 
+
+Construção de um algoritmo:
+•Narrativa: utilização da linguagem natural.
+•Fluxograma: utilização de símbolos pré-definidos. Conhecimento prévio da estrutura e símbolos.
+•Pseudocódigo: Portugol, passos a serem seguidos, regras definidas.
+
+#Primeiros passos para começar a programar
+ 
+
+##Objetivo da computação: minimar esforços e otimizar recursos
+
+Ábaco: primeiro dispositivo de cálculos.
+
+Surgimento dos primeiros computadores e da ciência da computação foi durante a guerra.
+
+Pai da computação: Alan Turing
+•Símbolos processados por computo 
+•Operações de computador, usando matemática e codificação 
+
+Projeto Delilab 
+Alan Turing, Von Newmann, Claude Shannon.
+Codificador de voz.
+
+Claude Shannon, percebeu a vasta aplicabilidade da álgebra booleana.
+Deu conceitos e lógica  aos computadores digitais com o uso de circuitos elétricos usando o padrão binário.
+Base dos computadores atuais.
+
+Von Newmann, fez a primeira tentativa de computador digital.1948
+
+Alan Turing, propôs a questão “Será que máquinas podem pensar?” Em 1950, dando origem a inteligência artificial.
+Codificação: dados e mais… através de binários. Ele deu origem ao padrão binário.
+
+
+
+Computação
+A primeira máquina foi atribuída a “Blaise Pascal” que fazia somatória e subtração.
+Feita para auxiliar seu pai com o cálculo de impostos.
+Após isso em 1820, Charles Xavier Thomas cria a primeira máquina que realiza as operações matemáticas básicas, chamada de Arithmometer.
+
+Essas máquinas não eram programáveis.
+
+•1822
+* Protótipo de madeira e latão 
+* Não construído 
+•1837
+  •descreveu seu trabalho
+Idealizou funcionalidades de um computador atual.
+
+Conceito de software:
+Diferentes funções e conjuntos mutáveis, como executar essas instruções codificando.
+
+Ada Augusta Lovelace
+•1815-1852
+•Filha de poeta
+•Educada por De Morgan
+Primeira programadora.
+Criou instruções para calculador analítico.
+Considerada Patrona da ciência da computação.
+
+Última contribuição do século XIX foi de Herman Hollerith.
+Criando uma empresa chamada “Hollerith Tabuleting Machine”, uso de cartões perfurados que seriam inseridos na máquina e fossem interpretados, classificados e realizassem operações pelas perfurações.
+
+
+
+
+
+Primeiros computadores 
+Konrad Zuse, criou “Z1” mas não finalizou por falta de recursos tendo a guerra nesse momento, essa máquina possuía três unidades básicas: Memória; controladora e dispositivo para cálculo.
+Com isso tentou criar outras versões como o Z2 ultilizando Relés e o Z3 utilizando relés e núcleos de ferrite.
+O Z3 conseguia realizar de 3 a 4 operações por segundo e multiplicações em 5 segundos
+Porém foi destruído junto com a casa de Zuse no cenário de guerra. Porém Zuse ainda teria sua quarta versão o Z4 que estava sendo desenvolvida paralelamente ao Z3, que foi escondido em uma cidade da Bavária e após a guerra terminou a construção da versão 4.
+
+Após um tempo surgiu um novo computador com inovações para a época, construído pela IBM ou Havard Mark 1, com:
+* Modificação de instruções dinâmica 
+* Unidade de decisão- algoritmo 
+Memórias separadas para instruções e dados.
+ 
+
+Na segunda guerra a partir da busca por cálculos mais precisos surge o primeiro computador nos Estados Unidos chamado de “ENIAC- eletronic numeral integrator and computer”
+* formato em U
+* Memórias gigantes-80x8.5 pés 
+* Registradores -2 pés 
+* 18 mil válvulas 
+Era programável, é considerado primeiro computador justamente por poder ser programável e por ler comandos
+
+
+EDVAC- eletronic discreto variable automatic computador 
+Foi criado por Von Newmann e teve a inovação de possuir programa armazenado, foi usado após a descontinuação do ENIAC em 1954.
+
+E também teve o COLOSSUS EM 1943, também por cabos com participação de Alan Turing
+
+
+
+
+
+
+
+Era dos computadores pessoais
+Quando computadores passaram a ser comercializados com o surgimento de circuitos internos/ integrados com a Intel e seu chip 8080.  Em 1975.
+
+Em 1977 Apple lança seu primeiro computador com tela e teclado. Apple 2
+
+•alto consumo de recursos
+•programas de processamentos de dados
+
+
+
+
+
+
+Técnicas de Lógica de programação
+Linear:
+•modelo tradicional 
+•Não tem vínculo 
+•estrutura hierárquica 
+•Programação de computadores                          
+ Possui execução sequenciada 
+Ordenação de elementos por uma única propriedade
+Possui recursos limitados e única dimensão 
+
+Técnica estruturada:
+Organização, disposição e ordem dos elementos essenciais que compõem um corpo(concreto ou abstrato)
+Objetivo de facilitar escrita, entendimento, validação e manutenção.
+
+Técnica modular:
+Decompor um problema, definindo módulos para armazenar as informações. 
+Controlada por um conjunto de regras.
+Cada módulo é uma parte independente.
+Pode ser dividido de maneira padrão por dados de entrada, processo de transformação e dados de saída.
+As metas desse método são simplificar, decompor o problema e verificação do módulo.
+
+
+
+
+
+O que é um algoritmo?
+ Desenvolvimento do programa
+•Análise: estudo e definicao dos dados de entrada e saída
+•Algoritmo: descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo
+•Codificação: o algoritmo é codificado de acordo com a linguagem de programação escolhida
+
+
+Construção de algoritmos
+•Compreensão do problema
+•definição dados de entrada
+•definir processamento 
+•definir dados de saída 
+•utilizar um método de construção 
+•teste e diagnóstico
+
+
+
+
+Estruturas de repetição:
+Enquanto … faça 
+Repita … até 
+Para … de … até … faça 
+
+
+
+
+Funções:
+As funções, ou sub-rotinas são blocos de instruções que realizam tarefas específicas.
+São blocos de instruções (códigos), identificados por nomes e parâmetros.
+
+Variáveis locais são destruídas após encerrar a função.
+
+•definição 
+•nome
+•invocação
+•variável local
+
+
+
+Assembly 
+•1949
+•primeira linguagem
+•linguagem de 
+Montagem
+Máquina 
+
+Década de 50
+Surgimento
+•Fortran
+•COBOL
+•LISP
+
+Década de 60
+Surgimento
+•C
+•Prolog
+•ML
+
+Década de 90
+Surgimento 
+•Java
+•Python
+•Ruby
+•C#
+•JavaScript 
+
+
+
+
+Problemas de decisão
+Caráter lógico de sim ou não 
+
+Problema de busca 
+•relacionamento binário
+•objetivo ver se tem relação de pertencimento 
+
+Problemas de otimização 
+Maximizar ou minimizar uma função 
+
+
+
+
+Como um computador entende um programa?
+Linguagem de alto nível passada para o compilador que executa análise do programa e após isso é passado para a linguagem de máquina Assembly de baixo nível.
+
+
+
+Desenvolvimento de programas necessita de:
+Legibilidade: facilidade de leitura, compreensão, ortogonalidade, definição adequada das estruturas;
+Redigibilidade: simplicidade da escrita, suporte a abstração, reuso do código, expressividade;
+Confiabilidade: fazer exatamente o que o programa foi feito para fazer;
+Custo: análise de impacto.
+
+
+
+
+Análise léxica:
+Particionar, classificar, eliminar
+Análise sintática:
+Sintaxe, “componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura” 
+Análise semântica: é o estudo do significado. Incide sobre a relação entre significantes, como: palavras, frases, sinais e símbolos “
+Erro de semântica: não faz o que é esperado.
+
+
+
+
+
+O paradigma é uma maneira bem definida de como você irá resolver um problema utilizando a linguagem de programação.
+Tipos de paradigmas: orientação a objeto: abstração que trata o programa com base em classes e objetos, procedural: chamadas sucessivas e procedimentos separados, funcional: instruções são baseadas em funções , estruturado: estrutura de blocos alinhados, computação distribuída: funções executadas de forma independente, lógico.
+
+#Projetos ágeis com SCRUM
+
+##Objetivos de negócio:
+Processo de desenvolvimento 
+•concepção 
+•análise e design 
+•desenvolvimento 
+•testes 
+•implantação 
+
+
+Gestão de projetos 
+Tradicional x ágil 
+
+Tradicional( waterfall): só permite que o projeto avance quando uma fase está inteiramente completa.(demanda muito tempo)
+
+Ágil: software construído por partes (incremental) e cada parte executa-se em um ciclo (iterativo)
+
+Em projetos tradicionais, você corre o risco de descobrir que estava errado depois de meses. Com o SCRUM, você descobre que estava errado em no máximo 30 dias.
+
+Pilares scrum:
+Transparência, adaptação e inspeção.
+
+
+Papéis e responsabilidades:
+(PO) Product owner: representa a área de negócios, é uma pessoa e não um comitê. Define funcionalidades do software (Product backlog), prioriza as funcionalidades de acordo com o valor do negócio.
+
+(SM) Scrum master: garante o uso correto do scrum, não é gerente de projetos agindo como facilitador, auxilia o Product owner no planejamento e estimativas do backlog, treina o time em autogerenciamento e interdisciplinaridade.
+
+(DEV) time de desenvolvimento: possui habilidades para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para a entrega do software funcionando.
+
+
+Time box: tempo máximo para fazer uma cerimônia ou sprint
+
+Daily meetings precisam ser de pé para que sejam rápidas e não se acomodem, levendo até 15 minutos, onde cada membro do grupo fala o que fez no dia anterior, o que está programado para o dia e o que já está pronto.
+
+Revisão da sprint
+O time dev apresenta para o PO o trabalho feito, time box: 4h ( sprint 30 dias)
+
+Retrospectiva é uma reunião da equipe para lições aprendidas, transparência. 3 h time box.
+
+Product Backlog é composto por épicos e estórias.
+Épicos: incrementos sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir.
+Estórias: detalhamento dos épicos, um épico normalmente se divide em várias estórias, onde ficam descritos o que deve acontecer e suas regras de negócio.
+
+Épico é um trabalho maior enquanto possui estórias dentro dele. Estórias são um conjunto de tarefas e um épico é um conjunto de estórias.
+
+Estória é nível de negócio
+ Refinamento acontece antes da retro e da review e antes da planning
+
+#Introdução ao Git e GitHub 
+##Windows 
+-cd: comando de direção 
+-dir: usado para listar
+-mkdir: make directory/ criar pasta
+-rmdir: deletar repositório 
+-cd .. : voltar um nivel 
+-cd / : ir para a base do diretório 
+-cls: clear screen/limpar tela
+-tab: autocompletar
+-echo: printa no terminal uma frase
+-“>” : redirecionador de fluxo
+-txt : criar arquivo
+-del : deletar arquivos de uma pasta 
+-seta pra cima: para navegar pelo histórico de comandos realizados nesse terminal 
+-Pwd: mostra caminho completo
+-cat: usado para mostrar conteúdo 
+-git remote: empurrar o repositório para uma origem remota
+-git push origin master: empurrar depósito 
+
+
+Unix
+-cd: comand direction 
+-Is: usado para listar
+-mkdir: make directory/ criar pasta
+-rm-rf: remover repositório 
+-cd .. : voltar um nivel
+-cd / : ir para a base do diretório 
+-clear ou crtl L: clear screen/limpar tela
+
+Objetos fundamentais git
+Blobs 
+Trees 
+Commits 
+Blobs são os arquivos, o SHA desses arquivos
+Árvore aponta para esses Blobs respectivamente armazenando o nome desses arquivos 
+Commit dando significância desse conjunto que foi feito, tendo autor e metadados
+
+Bloob é o bloco básico de composição, a tree armazena e aponta para os diferentes tipos de blobs e os commitis juntam tudo, apontando para árvores, commitis, autor e mensagens.
+SHA1 são códigos passados por hash encriptados de arquivos de 40 dígitos 
+
+
+
+
+
+
+
+
+Comandos git
+Criando um repositório 
+-Git init: iniciar repositório 
+-“-a”: mostra arquivos ocultos
+-#: para tamanho de fonte
+-git add *: adicionar pasta
+-git status: trás a informação da situação do seu arquivo
+-mv: mover um repositório para outro
+-git commit -m: criar commit
+-unset: exclui config
+-git pull origin master: puxar o que esta no repositório do github para juntar com o da sua máquina 
+
+Para resolver conflitos, abrir o arquivo e modificar colocando a versão correta dele, logo apor commitar empurrar para o github
+•Git clone: para clonar repositório do github usando URL
+•git remote -v: trás repositórios remotos do repositório clonado
